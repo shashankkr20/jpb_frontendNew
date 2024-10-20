@@ -32,7 +32,11 @@ function Login() {
       localStorage.setItem('userData',JSON.stringify(data.user))
       
       navigate('/')
-    } else {
+    } 
+    else if(response.status==403){
+          alert(data.message)
+    }
+    else {
       console.error('Login failed:', data.message);
     }
   };
