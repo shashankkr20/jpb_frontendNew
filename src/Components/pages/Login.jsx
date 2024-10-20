@@ -33,7 +33,7 @@ function Login() {
       
       navigate('/')
     } 
-    else if(response.status==403){
+    else if(response.status===403){
           alert(data.message)
     }
     else {
