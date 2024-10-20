@@ -1,0 +1,80 @@
+.homeCont {
+    margin: 0;
+    display: flex;
+    min-height: 100vh; /* Ensures the container occupies full viewport height */
+}
+
+.homeCont > .left-aside {
+    text-align: center;
+    padding: 10px;
+    flex: 0.06; /* Fixed flex basis */
+    border-right: 1.5px solid grey;
+    min-height: 100vh; /* Ensure it occupies at least full height */
+}
+
+.homeCont > .right-side {
+    flex: 0.9; /* Right side takes the majority of space */
+    padding: 10px;
+    overflow-y: auto; /* Allows vertical scrolling in the right side */
+    min-height: 100vh; /* Ensures the right side also takes full height */
+}
+
+.homeCont > .right-side > button {
+    padding: 8px 18px;
+    margin-top: 20px;
+    margin-left: 35px;
+    background-color: #0B66EF;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: larger;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Your existing styles for jobs and job-card remain unchanged */
+.jobs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Spacing between cards */
+    justify-content: center; /* Center cards horizontally */
+    margin-top: 20px; /* Spacing above the job section */
+}
+
+.job-card {
+    background-color: #ffffff; /* Card background */
+    border: 1px solid #e0e0e0; /* Card border */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 20px; /* Inner padding */
+    width: 300px; /* Fixed width */
+    transition: transform 0.2s; /* Smooth transform on hover */
+}
+
+.job-card:hover {
+    transform: scale(1.02); /* Scale up on hover */
+}
+
+.job-card h3 {
+    margin: 0 0 10px; /* Spacing below the title */
+    color: #333; /* Title color */
+}
+
+.job-card p {
+    margin: 5px 0; /* Spacing between paragraphs */
+    color: #666; /* Text color */
+}
+
+.apply-button {
+    background-color: #4CAF50; /* Button color */
+    color: white; /* Button text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded button */
+    padding: 10px 15px; /* Padding */
+    cursor: pointer; /* Pointer cursor */
+    transition: background-color 0.3s; /* Smooth background transition */
+}
+
+.apply-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}

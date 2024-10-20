@@ -1,0 +1,73 @@
+.InterviewCont{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap:12px;
+    width:60%;
+}
+.InterviewCont>div{
+display: flex;
+gap:10px;
+
+}
+.InterviewCont>div>input{
+    border-radius: 5px;
+    padding: 10px;
+    width: 60%;
+}
+.InterviewCont>div>label{
+    flex: 0.5;
+}
+.InterviewCont>button{
+    width: 200px;
+    padding: 6px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #0B66EF;
+    color: #FFFFFF;
+    align-self: flex-end;
+    border: none;
+    border-radius: 5px;
+}
+.InterviewCont .candidateCont{
+    
+   
+    
+    display: flex;
+    align-items: center;
+padding: 4px;
+gap: 5px;
+
+}
+.InterviewCont .candidateCont>.candidate{
+    border: 0.5px solid black;
+    padding: 2px;
+    border-radius: 10px ;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+.InterviewCont select{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 63%;
+    padding: 10px;
+}
+.candidateCont{
+    overflow-x: auto;
+    display: flex;
+    
+}
+.addcandidate>div{
+    border: 2px solid black;
+    border-radius: 10px;
+display: flex;
+padding: 6px;
+width: 60%;
+}
+.addcandidate>div>input{
+    align-self: center;
+    border: none;
+    outline:none;
+}

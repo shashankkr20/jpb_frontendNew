@@ -1,0 +1,17 @@
+.mainCont{
+    display: flex;
+    
+}
+.mainCont>.left-side{
+    padding: 5px;
+   display: flex;
+flex:0.5
+}
+.mainCont>.left-side>p{
+align-self: center;
+}
+.mainCont>.right-side{
+    padding: 10px;
+    display: flex;
+flex:0.5
+}
