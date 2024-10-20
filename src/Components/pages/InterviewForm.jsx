@@ -44,7 +44,7 @@ function InterviewForm({ submit }) {
 
       try {
         const token = localStorage.getItem('authToken');
-        const response = await fetch(`${process.env.REACT_APP_API_URL}/interview/add`, {
+        const response = await fetch(`${process.env.REACT_APP_API_URL}/api/interview/add`, {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
