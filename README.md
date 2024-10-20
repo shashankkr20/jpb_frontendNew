@@ -32,7 +32,7 @@ To install and run the project locally, follow these steps:
 
 ```bash
 1. Clone the repository:
-   git clone [repository-link](https://github.com/shashankkr20/jpb_frontendNew.git)
+   git clone https://github.com/shashankkr20/jpb_frontendNew.git
 
 2. Navigate to the project directory:
    cd jpb_frontendNew
