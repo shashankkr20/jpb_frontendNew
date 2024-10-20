@@ -37,7 +37,7 @@ function Main
       <Header />
       <div className='mainCont'>
         <div className='left-side'>
-          <p>Lorem Ipsum is simply dummy text of the printing and  typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley</p>
+          <p>Looking for a dynamic opportunity to grow your career? Join us and be part of an innovative team where your skills and passion are valued. We offer competitive benefits, a collaborative environment, and room to thrive. Apply today and shape the future with us!</p>
         </div>
         <div className='right-side'>
           {signuptoggle ? <SignupForm onSubmit={handletogglesignup} login={handlelogintoggle} /> : ""}
