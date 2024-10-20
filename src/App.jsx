@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import Main from './Components/pages/Main';
 import './App.css'
 import Home from './Components/pages/Home';
-import { BrowserRouter as Router, Routes, Route, Link, BrowserRouter } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Link, BrowserRouter,HashRouter } from 'react-router-dom';
 function App() {
 
 
@@ -10,13 +10,13 @@ function App() {
   
 
   return (
-<BrowserRouter>
+<HashRouter>
 <Routes>
   <Route path="*" element={<Main/>}/>
   <Route path='/' element={<Home/>}/>
   <Route path='/main' element={<Main/>}/>
 </Routes>
-</BrowserRouter>
+</HashRouter>
 
 
   );
